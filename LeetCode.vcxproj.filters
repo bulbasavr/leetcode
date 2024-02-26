@@ -18,5 +18,8 @@
     <ClCompile Include="src\9_PalindromeNumber.cpp\PalindromeNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\27_RemoveElement\RemoveElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

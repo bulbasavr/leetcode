@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\27_RemoveElement\RemoveElement.cpp" />
     <ClCompile Include="src\9_PalindromeNumber.cpp\PalindromeNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

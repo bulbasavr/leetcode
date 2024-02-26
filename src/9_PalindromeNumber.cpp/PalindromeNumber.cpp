@@ -25,10 +25,10 @@ void testsPalindrome()
     std::cout << "Accepted" << std::endl;
 }
 
-int main()
-{
-    testsPalindrome();
-    std::cin.get();
-
-    return 0;
-}
+// int main()
+// {
+//     testsPalindrome();
+//     std::cin.get();
+//
+//     return 0;
+// }
