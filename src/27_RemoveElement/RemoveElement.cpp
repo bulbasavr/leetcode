@@ -37,5 +37,6 @@ void testsRemoveElement()
 int main()
 {
     testsRemoveElement();
+
     return 0;
 }
