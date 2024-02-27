@@ -49,10 +49,10 @@ void testsTwoSum()
     std::cout << "Accepted" << std::endl;
 }
 
-int main()
-{
-    testsTwoSum();
-    std::cin.get();
-
-    return 0;
-}
+// int main()
+// {
+//     testsTwoSum();
+//     std::cin.get();
+//
+//     return 0;
+// }
