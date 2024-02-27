@@ -1,0 +1,58 @@
+#include <iostream>
+#include <cassert>
+#include <vector>
+
+class Solution
+{
+public:
+    std::vector<int> twoSum(std::vector<int>& nums, int target)
+    {
+        std::vector<int> result;
+
+        for (size_t i = 0; i < nums.size() - 1; i++)
+        {
+            for (size_t j = i + 1; j < nums.size(); j++)
+            {
+                if (nums[i] + nums[j] == target)
+                {
+                    result.emplace_back(i);
+                    result.emplace_back(j);
+
+                    return result;
+                };
+            }
+        }
+
+        result.emplace_back(0);
+        result.emplace_back(0);
+
+        return result;
+    }
+};
+
+void testsTwoSum()
+{
+    Solution solution;
+
+    std::vector<int> testVector1{2, 7, 11, 15};
+    std::vector<int> OutputtestVector1{0, 1};
+    assert(solution.twoSum(testVector1, 9) == OutputtestVector1);
+
+    std::vector<int> testVector2{3, 2, 4};
+    std::vector<int> OutputtestVector2{1, 2};
+    assert(solution.twoSum(testVector2, 6) == OutputtestVector2);
+
+    std::vector<int> testVector3{3, 3};
+    std::vector<int> OutputtestVector3{0, 1};
+    assert(solution.twoSum(testVector3, 6) == OutputtestVector3);
+
+    std::cout << "Accepted" << std::endl;
+}
+
+int main()
+{
+    testsTwoSum();
+    std::cin.get();
+
+    return 0;
+}

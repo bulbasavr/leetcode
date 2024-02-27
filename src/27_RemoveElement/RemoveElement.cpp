@@ -34,9 +34,10 @@ void testsRemoveElement()
     std::cout << "Accepted" << std::endl;
 }
 
-int main()
-{
-    testsRemoveElement();
-
-    return 0;
-}
+// int main()
+// {
+//     testsRemoveElement();
+//     std::cin.get();
+//
+//     return 0;
+// }
