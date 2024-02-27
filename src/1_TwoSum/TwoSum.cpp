@@ -23,7 +23,6 @@ public:
             }
         }
 
-
         result.emplace_back(0);
         result.emplace_back(0);
 
