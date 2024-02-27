@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\1_TwoSum\1_TwoSum.cpp" />
+    <ClCompile Include="src\1_TwoSum\TwoSum.cpp" />
     <ClCompile Include="src\27_RemoveElement\RemoveElement.cpp" />
     <ClCompile Include="src\9_PalindromeNumber.cpp\PalindromeNumber.cpp" />
   </ItemGroup>

@@ -21,7 +21,7 @@
     <ClCompile Include="src\27_RemoveElement\RemoveElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\1_TwoSum\1_TwoSum.cpp">
+    <ClCompile Include="src\1_TwoSum\TwoSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
