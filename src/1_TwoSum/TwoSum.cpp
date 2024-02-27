@@ -35,16 +35,16 @@ void testsTwoSum()
     Solution solution;
 
     std::vector<int> testVector1{2, 7, 11, 15};
-    std::vector<int> OutputtestVector1{0, 1};
-    assert(solution.twoSum(testVector1, 9) == OutputtestVector1);
+    std::vector<int> OutputTestVector1{0, 1};
+    assert(solution.twoSum(testVector1, 9) == OutputTestVector1);
 
     std::vector<int> testVector2{3, 2, 4};
-    std::vector<int> OutputtestVector2{1, 2};
-    assert(solution.twoSum(testVector2, 6) == OutputtestVector2);
+    std::vector<int> OutputTestVector2{1, 2};
+    assert(solution.twoSum(testVector2, 6) == OutputTestVector2);
 
     std::vector<int> testVector3{3, 3};
-    std::vector<int> OutputtestVector3{0, 1};
-    assert(solution.twoSum(testVector3, 6) == OutputtestVector3);
+    std::vector<int> OutputTestVector3{0, 1};
+    assert(solution.twoSum(testVector3, 6) == OutputTestVector3);
 
     std::cout << "Accepted" << std::endl;
 }
