@@ -27,5 +27,8 @@
     <ClCompile Include="src\13_RomanToInteger\RomanToInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\28_FindTheIndexOfTheFirstOccurrenceInAString\FindTheIndexOfTheFirstOccurrenceInAString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
