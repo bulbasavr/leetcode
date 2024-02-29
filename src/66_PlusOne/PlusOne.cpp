@@ -27,8 +27,16 @@ public:
         {
             if (result[i] - 1 == 9)
             {
+                result[i] = 0;
+            }
+            else
+            {
+                result[i] = 1;
+                continue;
             }
         }
+
+        result.push_back(0);
 
         return result;
     }
@@ -71,7 +79,7 @@ public:
     void simpleTest(const std::vector<T>& output, const std::vector<T>& expected)
     {
         testInfo(output, expected);
-        // assert(output == expected);
+        assert(output == expected);
     }
 };
 

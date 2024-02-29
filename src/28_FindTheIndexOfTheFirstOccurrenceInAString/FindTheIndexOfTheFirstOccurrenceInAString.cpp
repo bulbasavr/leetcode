@@ -9,7 +9,7 @@ public:
 };
 
 template <typename T>
-class Test
+class Test1
 {
 public:
     void testInfo(T output, T expected)
@@ -33,7 +33,7 @@ public:
 void testsFindTheIndex()
 {
     Solution solution;
-    Test<int> test;
+    Test1<int> test;
 
     test.simpleTest(solution.strStr("sadbutsad", "sad"), 0);
     test.simpleTest(solution.strStr("leetcode", "leeto"), -1);
