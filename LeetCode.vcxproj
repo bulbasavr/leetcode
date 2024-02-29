@@ -131,6 +131,7 @@
     <ClCompile Include="src\1_TwoSum\TwoSum.cpp" />
     <ClCompile Include="src\27_RemoveElement\RemoveElement.cpp" />
     <ClCompile Include="src\28_FindTheIndexOfTheFirstOccurrenceInAString\FindTheIndexOfTheFirstOccurrenceInAString.cpp" />
+    <ClCompile Include="src\66_PlusOne\PlusOne.cpp" />
     <ClCompile Include="src\9_PalindromeNumber.cpp\PalindromeNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
