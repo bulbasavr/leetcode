@@ -119,10 +119,10 @@ void testsPlusOne()
     std::cout << "Accepted" << std::endl;
 }
 
-int main()
-{
-    testsPlusOne();
-    std::cin.get();
-
-    return 0;
-}
+// int main()
+// {
+//     testsPlusOne();
+//     std::cin.get();
+//
+//     return 0;
+// }
