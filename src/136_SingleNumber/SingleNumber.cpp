@@ -61,10 +61,10 @@ void testsSingleNumber()
     std::cout << "Accepted" << std::endl;
 }
 
-int main()
-{
-    testsSingleNumber();
-    std::cin.get();
-
-    return 0;
-}
+// int main()
+// {
+//     testsSingleNumber();
+//     std::cin.get();
+//
+//     return 0;
+// }
